@@ -1,0 +1,56 @@
+﻿/*签证首页-轮播图*/
+.addWrap{
+	position:relative;
+	width:100%;
+	background:#fff;
+}
+.addWrap .swipe{
+	overflow:hidden;
+	visibility:hidden;
+	position:relative;
+}
+.addWrap .swipe-wrap{
+	overflow:hidden;
+	position:relative;
+}
+.addWrap .swipe-wrap > div {
+	float:left;
+	width:100%;
+	position:relative;
+}
+#position{
+	position:absolute;
+	bottom:0;
+	right:0;
+	margin:0;
+	width:100%;
+	text-align:center;
+}
+#position li{
+	width:7px;
+	height:7px;
+	margin:0 3px;
+	display:inline-block;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background:#fff;
+	opacity:0.5;
+}
+#position .circle_li{
+	margin:0 3px 0 0;
+}
+#position li.cur{
+	opacity:1;
+}
+.img-responsive{
+	display:block;
+	max-width:100%;
+	max-height:180px;
+	height:auto;
+}
+.img-focus{
+	display:block;
+	width:100%;
+	/* max-height:160px; */
+	height:auto;
+}

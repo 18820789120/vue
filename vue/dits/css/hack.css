@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* 基本字体大小，颜色 */
+/*#region color */
+/*#endregion */
+/*#region layout */
+/*#endregion */
+/*#region font */
+/*#endregion */
+/*#region border */
+/*#endregion */
+/* for max-639 */
+/* home */
+.home-module li a { width: 86px; height: 86px; padding-top: 64px; font-size: 1em; line-height: 90px; margin-bottom: 38px; }
+
+.home-module li .flight { background-size: 70%; }
+
+.home-module li .hotel { background-size: 42%; }
+
+.home-module li .tour { background-size: 40%; }
+
+.home-module li .corise { background-size: 45%; }
+
+.home-module li .ticket { background-size: 45%; }
+
+.home-module li .hotline { background-size: 40%; }
+
+.lightbox .lightbox-app { width: 250px; height: 328px; padding-top: 184px; padding-left: 35px; padding-right: 35px; margin-left: -125px; margin-top: -164px; background-size: 250px; border-radius: 8px; border: solid 2px #fff; }
+
+.button-yellow { padding: 3px 0; margin: 10px auto; font-size: 1em; text-shadow: 1px 1px 0 #b44800; }
+
+.button-gray { padding: 3px 0; margin: 10px auto; font-size: 1em; }
+
+.holiday-detail, .fee-title, .price-detail, .l-article-list, .tic-detail .wrap, .tic-listitem dd, .tic-listitem .book span:first-of-type, .tic-listitem .book span:last-of-type, .tic-ca ul li a, .curise-points, .l-arrow-row .row-title, .l-arrow-row .row-desc, .search-full input[type="search"], .l-filter-bar > ul li a, .l-article > dd, .curise-detail-info, .holiday-list li .title, .user-tips, .user-link a { font-size: .875em; }
+
+.fee-title, .price-detail { margin-top: 10px; margin-bottom: 10px; }
+
+.ticket-option { font-size: 1em; padding: 12px; }
+
+.ticket-option .ui-icon-close { right: 8px; top: 8px; width: 25px; height: 25px; background-size: 36px; background-position: -6px -2067px; }
+
+.row-arrow2 { right: 0; }
+
+.l-input-list > dd { text-indent: 12px; }
+
+.numbox { height: 28px; width: 98px; line-height: 26px; }
+
+.numbox .less, .numbox .plus { width: 25px; height: 26px; line-height: 23px; }
+
+.numbox .numble { width: 45px; min-width: 45px; position: relative; padding: 0; height: 26px; font-size: 12px; }
+
+.font30 { font-size: 1.3em; }
+
+.font36 { font-size: 1.5em; }
+
+.ticket-option-list li del, .ticket-option del { margin: 0 15px; }
+
+.margin-t20-l20 { margin-top: 10px; margin-left: 10px; }
+
+.mr20 { margin-right: 10px; }
+
+.l-input-list > dd .wrapper .inner { margin: 0 20px 0 100px; }
+
+.call-service { height: 38px; line-height: 38px; font-size: 1em; }
+
+.tic-ticket-list > dd::after { height: 44px; }
+
+.tic-listitem .book { height: 44px; width: 56px; position: absolute; margin: 7px 15px auto; right: 0; top: 0; }
+
+.tic-listitem .book span { height: 24px; line-height: 24px; border-width: 1px; }
+
+.tic-slider-overlayout, .holiday-slider-overlayout { height: 30px; line-height: 30px; font-size: .825em; text-indent: 15px; }
+
+.tic-ticket-list > dd { text-indent: 10px; }
+
+.tic-listitem .book span:first-of-type { margin-left: -10px; }
+
+.tic-ticket-list > dd.ui-ico-down::after, .tic-ticket-list > dd.ui-ico-up::after { background-size: 10px; }
+
+.ticket-option-list li { padding: 10px; font-size: 1em; }
+
+.tic-ca ul li { height: 32px; line-height: 32px; margin-top: 8px; }
+
+.l-arrow-row { height: auto; padding: 5px 22px 5px 10px; background-size: 12px; }
+
+.tic-city a { line-height: 38px; font-size: 1.2em; background-size: 10px; }
+
+.l-filter-bar { height: 32px; margin: 0 10px; }
+
+.l-filter-bar > ul li { height: 30px; line-height: 30px; }
+
+.tic-ca { margin-top: -8px; }
+
+.tic-more { height: 32px; margin-left: 5px; margin-right: 5px; }
+
+.tic-more a { line-height: 30px; font-size: 0.875em; margin-left: -3px; }
+
+.tic-list { margin: 5px; }
+
+.tic-list li { padding: 2px; }
+
+.tic-list li .tic-list-img, .tic-list li .tic-list-img img { width: 75px; height: 75px; margin-right: 3px; }
+
+.tic-list li .tic-list-item { line-height: .8em; }
+
+.tic-list li .tic-list-item .name, .tic-list li .tic-list-item .address, .tic-list li .tic-list-item .type span, .tic-list li .tic-list-img span { font-size: 0.75em; line-height: 1.6em; }
+
+.tic-list li .tic-list-item .title { font-size: .8em; line-height: 1.7em; margin-top: 8px; padding-right: 80px; }
+
+.tic-list li .tic-list-item .type { min-height: 18px; height: 18px; overflow: hidden; }
+
+.tic-list li .tic-list-item .type span { padding: 1px 3px; margin: 0 2px 1px; display: inline-block; font-size: 10px; }
+
+.tic-summary { margin-top: 12px; height: 32px; }
+
+.tic-summary .address { white-space: normal !important; }
+
+.tic-list li .tic-list-desc { right: 10px; top: 12px; }
+
+.tic-list li .tic-list-desc .price { font-size: 1em; }
+
+.tic-list li .tic-list-desc .pay { margin-bottom: 10px; }
+
+.tic-list li .tic-list-desc .price small { font-size: .7em; }
+
+.tic-iselect dd { text-indent: 20px; }
+.tic-iselect dd a { color: #666; }
+
+.tic-address dd { padding-left: 12px; text-indent: 0; }
+
+.tic-ticket-list .tic-police-list .title { font-size: 0.875em; }
+
+.tic-ticket-list > dd span.price { font-size: 1em; }
+
+.tic-listitem dd { height: auto; min-height: 60px; padding-bottom: 8px; }
+
+.tic-listitem dd .product > div:first-of-type { margin-top: 9px; margin-bottom: 9px; margin-left: 8px; text-indent: 0; white-space: normal; }
+
+.curise-list .price { margin-bottom: 4px; }
+
+.tic-city { width: 88px; }
+
+.btn-detail { font-size: 1em; height: 36px; line-height: 36px; padding: 0 10px; right: 10px; }
+
+.l-article-list > dd { padding: 0 12px; }
+
+.curise-detail-info dd { min-height: 28px; line-height: 28px; }
+
+.curise-detail-info .text-input, .curise-detail-info select { height: 28px; width: 100px; font-size: 0.8em; }
+
+.curise-points dd, .curise-points dt { height: 30px; line-height: 28px; }
+
+.curise-points dd { width: 65%; }
+
+.curise-points dt { width: 35%; }
+
+.curise-points dt button { line-height: 28px; }
+
+.btn-order img { width: 24px; }
+
+.curise-room .title { font-size: 1.2em; line-height: 42px; }
+
+.curise-room dd, .curise-room .city-list > li > ul > li { font-size: 1em; line-height: 42px; }
+
+.curise-room dl, .curise-room .city-list > li > ul { max-height: 168px; }
+
+.curise-ca { margin: 10px; }
+
+.curise-ca ul { margin-top: 10px; margin-bottom: 10px; }
+
+.curise-ca ul > li { width: 47%; height: 53px; }
+
+.curise-ca ul > li a { padding-top: 7px; background-size: 42px; }
+
+.curise-ca ul > li a span { height: 20px; line-height: 20px; }
+
+.curise-ca ul > li a span.t1 { font-size: 0.875em; }
+
+.curise-ca ul > li a span.t2 { font-size: 0.75em; }
+
+.curise-ca ul > li a span.t3 { margin-top: 10px; }
+
+.curise-ca ul > li a.ca1 { background-position: 100% 1px; }
+
+.curise-ca ul > li a.ca2 { background-position: 100% -50px; }
+
+.curise-ca ul > li a.ca3 { background-position: 100% -102px; }
+
+.curise-ca ul > li a.ca4 { background-position: 100% -152px; }
+
+.curise-notice { margin-bottom: 15px; padding-top: 10px; padding-bottom: 12px; }
+
+.curise-notice ul { height: 90px; }
+
+.curise-notice ul li > div { padding-top: 40px; text-align: center; }
+
+.curise-notice ul li.n1 > div { background-position: center -196px; }
+
+.curise-notice ul li.n2 > div { background-position: center -286px; }
+
+.curise-notice ul li.n3 > div { background-position: center -374px; }
+
+.curise-notice ul li span, .curise-notice ul li.n2 span { text-indent: 10px; }
+
+.curise-notice ul li span:first-of-type { font-size: 0.625em; }
+
+.curise-notice ul li span:last-of-type { font-size: 0.7em; }
+
+.holiday-city { height: 38px; line-height: 38px; width: 88px; font-size: 1em; background-size: 14px 23px; background-position: 10px 50%; text-indent: 36px; }
+
+.holiday-search { padding-left: 98px; height: 38px; }
+
+.module-block li { height: 32px; line-height: 32px; font-size: 0.875em; }
+
+.yellow-btn { font-size: 1.2em; }
+
+.product-list li .text-title { padding: 2px 5px; font-size: 0.625em; }
+
+.order-link { line-height: 44px; }
+
+.order-linkbtn, .order-state { top: 16px; }
+
+.code2-box { padding: 15px 139px 5px 13px; font-size: 1em; height: 182px; background-size: 480px 182px; }
+
+.code2-img { width: 90px; height: 90px; right: 24px; }
+
+.code2-info { height: 96px; }
+
+.holiday-slider-overlayout .ico_flag img { width: 20px; }
+
+.holiday-login a { height: 28px; font-size: 1em; line-height: 28px; width: 75px; }
+
+.user-add-address { background-position-x: 15px; }
+
+.user-add-traveler { height: 88px !important; line-height: 44px !important; }
+
+.user-add-traveler span { height: 44px !important; }
+
+.l-hasarrow > dd span:first-of-type { width: 90px; }
+
+.l-hasarrow > dd span:last-of-type { font-size: 1em; }
+
+.l-input-list > dd input { font-size: 0.8em; }
+
+.l-arrow-row .row-title { padding-bottom: 0; }
+
+.l-arrow-row { margin-top: 10px; margin-bottom: 10px; }
+
+.l-list, .l-article { margin-top: 10px; margin-bottom: 10px; margin: 10px 5px; }
+
+.l-article { padding-top: 8px; padding-bottom: 8px; }
+.l-article > dt { font-size: .825em; margin-bottom: 0; }
+.l-article > dt span:first-of-type { width: 36px; background-size: 77.8%; background-repeat: no-repeat; }
+.l-article .ui-ico-intro { background-position: 4px -626px; }
+
+.l-article::after { background-size: 12px; right: 0; width: 20px; }
+
+.holiday-list { margin: 8px 5px; }
+
+.holiday-list li { font-size: 0.85em; }
+
+.holiday-list li .imgbox, .holiday-list li .imgbox img { width: 75px; height: 75px; }
+
+.holiday-list li .title { line-height: 24px; }
+
+.holiday-list li .price span { font-size: 1.5em; }
+
+.holiday-isearch { padding-right: 90px; }
+
+.product-list li { margin-bottom: 0; font-size: 0.875em; }
+
+.icon-arr { background-size: 70%; height: 14px; }
+
+.icon-arr.down { background-position: 0 -15px; }
+
+.ticket-hot { height: 28px; line-height: 28px; font-size: .75em; padding-left: 12px; padding-right: 12px; margin-bottom: 0; }
+
+.ticket-info p { text-indent: 0; }
+
+.tic-detail .wrap { margin-top: 4px; }
+
+.l-noarrow-list { font-size: .825em; }
+.l-noarrow-list > dd { text-indent: 32px; }
+
+.user-countdown { width: 110px; height: 44px; }
+
+/* icon */
+.ui-icon-member { width: 66px; height: 88px; }
+
+/* search */
+/*.tic-search { padding-right: 88px; }*/
+.tic-search .close { height: 38px; background-position-y: -2666px; }
+
+.search-full { height: 44px; padding-right: 55px; }
+
+.search-full input[type="submit"] { height: 44px; width: 54px; background-size: 20px 28px; }
+
+.l-article > dd { padding-left: 10px; padding-right: 10px; }
+
+.tic-selectcity { width: 54px; background-image: url(../images/ico_arrow_down22.png); background-position: 42px 19px; }
+
+/* footer */
+.f-tool { height: 123px; margin: 40px 0 15px; }
+
+.f-tool > li { text-align: center; padding: 15px 0; }
+
+.f-tool > li img { margin-right: 0; }
+
+.f-tool > li .text { display: block; text-align: center; }
+
+.f-tool > li strong { font-size: 1.2em; }
+
+#cruiseinfo .half-box { width: 80%; }
+
+.txtIntro { font-size: .8em; }
+
+.txtIntro .intro_head { color: #111; font-size: 1em; }
+
+.txttraffic, .tic-html .txtbuynotice { font-size: .8em; }
+
+.row-arrow2 .holder { text-indent: 34px; }
+
+.search-result { font-size: 1em; }
+
+.content-wrap { padding: 5px 5px 60px !important; margin: 5px !important; }
+.content-wrap ol, .content-wrap ul, .content-wrap .txtWrap { font-size: 0.875em !important; }
+
+.holiday-desc { font-size: 1em; }
+
+@media (max-width: 320px) { .numbox { width: 97px; }
+  .l-article-list > dd .half-box { width: 100%; }
+  .l-article-list > dd .half-box:nth-child(2n) { margin-top: 1em; }
+  .curise-ca ul > li { padding: 0 4px; height: 52px; }
+  .curise-ca ul > li a { background-size: 36px; }
+  .curise-ca ul > li a.ca1 { background-position: 100% 4px; }
+  .curise-ca ul > li a.ca2 { background-position: 100% -40px; }
+  .curise-ca ul > li a.ca3 { background-position: 100% -84px; }
+  .curise-ca ul > li a.ca4 { background-position: 100% -128px; }
+  .tic-addr-detail { width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-break: keep-all; }
+  .tic-listitem .book { right: 20px; } }

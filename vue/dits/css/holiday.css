@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/* 度假 */
+/*reset*/
+/* body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, header, footer, nav, section, article, aside, textarea { margin: 0; padding: 0; }
+body { color:#333; font-size:100%; line-height:1.5em; }
+ul, li { list-style:none; }
+img { border: none; vertical-align:top; max-width: 100%; } */
+.end-fixed { height: 76px; }
+
+.holiday-detail { font-size: 1.3em; line-height: 1.5; padding: 10px; margin: 20px 10px; border: 1px solid #ccc; color: #333; background-color: #fff; }
+
+.holiday-detail h3 { margin: 10px 0; }
+
+.holiday-desc { color: #333; font-size: 20px; font-weight: bold; padding: 20px 0 10px; border-top: 1px dotted #ccc; }
+
+.content-wrap .holiday-desc:first-of-type { border-top: none !important; padding-top: 10px; }
+
+.call-service { position: fixed; width: 100%; height: 76px; line-height: 76px; font-size: 30px; color: #ffffff; background-color: #f60; text-align: center; left: 0; bottom: 0; z-index: 999; }
+
+.btn-call { width: 50%; display: inline-block; float: left; color: #fff; }
+
+.btn-order { width: 50%; display: inline-block; float: left; background-color: #414141; border: 1px solid #333; position: relative; outline: none; }
+
+.btn-order img { vertical-align: middle; margin-right: 10px; margin-top: -4px; }
+
+.btn-yellow { width: 40%; display: inline-block; float: left; color: #fff; background: none; border: none; }
+
+.btn-gray { width: 60%; display: inline-block; float: left; color: #fff; background-color: #414141; }
+
+.btn-gray-ccc { width: 60%; display: inline-block; float: left; background-color: #cccccc; color: #333; }
+
+.m-carousel-controls { left: auto; right: 5px; margin-left: 0; }
+
+/*========== search ==========*/
+.holiday-search { padding-left: 130px; height: 75px; }
+
+.holiday-search input[type="search"] { border-radius: 4px; border: solid 2px #f60; }
+
+/* .holiday-isearch { padding-right: 125px; } */
+
+.holiday-icity { top: 0; display: none;}
+
+.holiday-city { width: 120px; height: 74px; line-height: 74px; position: absolute; left: 0; top: 0; border-radius: 4px; color: #333; background: #dddddd url(../images/ico_address.png) no-repeat 12px 50%; text-indent: 40px; font-size: 1.5em; }
+
+.holiday-city a { color: #333; display: inline-block; width: 100%; height: 100%; margin-left: -40px; }
+
+.holiday-login { width: 100%; }
+
+.holiday-login a { height: 50px; width: 100px; display: inline-block; line-height: 50px; text-align: center; color: #fff; background: #f60; font-size: 20px; float: right; margin-right: 10px; }
+
+/*========== 业务模块 ========= */
+.module-block { margin: 10px; }
+
+.module-block li { width: 50%; height: 62px; line-height: 62px; text-align: center; float: left; font-size: 1.7em; margin-bottom: 10px; }
+
+.module-block li:nth-child(2n+1), .product-list li:nth-child(2n+1) { padding-right: 12px; }
+
+.module-block li:nth-child(2n), .product-list li:nth-child(2n) { padding-left: 12px; }
+
+.module-block li a { color: #fff; display: block; }
+
+.module-block li a.short-trip { background-color: #4ec8ff; }
+
+.module-block li a.long-trip { background-color: #ffb844; }
+
+.module-block li a.hk-trip { background-color: #9c69ac; }
+
+.module-block li a.abroad-trip { background-color: #ff7750; }
+
+.yellow-btn { height: 43px; line-height: 43px; padding: 0 20px; margin: 0 10px 10px; font-size: 1.5em; color: #FFF; border: solid 1px #d55212; border-radius: 4px; display: inline-block; background: -webkit-gradient(linear, 0 0, 0 100%, from(#fa742c), to(#ec5e12)); background: -moz-linear-gradient(top, #fa742c, #ec5e12); }
+
+.btn-detail { height: 46px; line-height: 46px; padding: 0 20px; font-size: 24px; color: #FFF; background-color: #f60; border-radius: 4px; display: inline-block; position: absolute; right: 20px; top: 50%; }
+
+/*========== 产品列表 ========= */
+.product-list { margin: 10px; }
+
+.product-list li { width: 50%; float: left; margin-bottom: 20px; line-height: 1.5em; }
+
+.product-list li img { max-width: 100%; vertical-align: top; }
+
+.product-list li a { color: #333; }
+
+.product-list li .imgbox { position: relative; overflow: hidden; margin-bottom: 5px; }
+
+.product-list li .text-title { width: 100%; position: absolute; left: 0; bottom: 0; background: rgba(255, 255, 255, 0.7); padding: 5px 10px; }
+
+.product-list li .text-info, .product-list li .text-title, .holiday-list li .title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.product-list li .price { color: #f60; font-size: 12px; }
+
+.product-list li .price strong { font-size: 1.3em; }
+
+.product-list li del { color: #999; }
+
+.holiday-list { background-color: white; margin: 15px 10px; height: 100%; }
+
+.holiday-list li { padding: 3px; border: 1px solid #cccccc; border-bottom: none; line-height: 1.5em; }
+
+.holiday-list li a { display: inline-block; height: 100%; width: 100%; color: #333; }
+
+.holiday-list li:last-of-type { border-bottom: 1px solid #cccccc; }
+
+.holiday-list li .imgbox { width: 136px; height: 136px; float: left; margin-right: 3%; display: table; vertical-align: middle; position: relative; }
+
+.holiday-list li .imgbox img { vertical-align: middle; width: 136px; height: 136px; }
+
+.holiday-list li .imgbox div { vertical-align: middle; display: table-cell; }
+
+.holiday-list li .title { color: #666; font-size: 1.5em; line-height: 52px; }
+
+.holiday-list li .price { text-align: right; padding-right: 20px; }
+
+.holiday-list li .price span { font-size: 2.5em; }
+
+.fee-title, .price-detail { font-size: 1.5em; margin: 15px 10px; color: #666; }
+
+.room-price { color: #4D9DC6; }
+
+.fee-title a { color: #4b80c5; }
+
+.price-detail span { color: #f60; }
+
+.price-detail strong { font-size: 1.5em; }
+
+/*========== 详情 ==========*/
+.holiday-slider-overlayout { position: absolute; z-index: 99; bottom: 0px; font-size: 1.5em; color: white; background-color: rgba(0, 0, 0, 0.5); line-height: 60px; text-indent: 30px; height: 60px; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.holiday-slider-overlayout .flag { background: url(../images/ico_place.png) no-repeat left center; padding: 2px 0 2px 24px; }
+
+.holiday-slider-overlayout .ico_flag { float: right; margin-right: 30px; }
+
+.holiday-slider-overlayout .ico_flag img { vertical-align: middle; }
+
+.l-noarrow-list > dd { text-indent: 60px; }
+
+/*  */
+.l-article { margin: 20px 10px; background-color: white; border: 1px solid #cccccc; box-sizing: border-box; padding: 16px 0px; color: #333; overflow: hidden; position: relative; cursor: pointer; }
+
+.l-article::after { content: ''; height: 100%; width: 30px; display: block; position: absolute; z-index: 99; top: 0; right: 5px; background: url(../images/ico_arrow_right\.png) no-repeat center; }
+
+.l-article.noarr { cursor: default; }
+
+.l-article.noarr::after { background: none; width: 0; height: 0; }
+
+.l-article > dt { color: #666; font-size: 1.7em; height: 28px; line-height: 28px; margin-bottom: 16px; }
+
+.l-article > dt span { display: inline-block; float: left; max-width: 80%; }
+
+.l-article > dt span:first-of-type { height: 100%; width: 60px; background-image: url(../images/icon_li\.png); }
+
+.l-article > dd { padding-left: 20px; padding-right: 20px; margin: 0; font-size: 1.3em; line-height: 1.7; }
+
+.l-article-list { margin: 20px 10px; font-size: 1.5em; }
+
+.l-article-list > dd { border: solid 1px #ccc; border-bottom: none; background-color: #fff; padding: 0 20px; margin: 0; overflow: hidden; position: relative; line-height: 1.5; }
+
+.l-article-list > dd:last-of-type { border-bottom: solid 1px #ccc; }
+
+.l-article-list > dd a { color: #666; }
+
+.l-article-list > dd label { width: 30%; display: inline-block; vertical-align: top; }
+
+.l-article-list > dd i { position: absolute; left: 0; top: 0; font-size: 18px; border-right: 36px solid transparent; border-bottom: 36px solid transparent; border-left: 36px solid #ff6600; border-top: 36px solid #ff6600; }
+
+.l-article-list > dd .tips { position: absolute; left: 6px; top: 10px; font-size: 18px; text-align: center; color: #fff; transform: rotate(-45deg); -ms-transform: rotate(-45deg); /* IE 9 */ -moz-transform: rotate(-45deg); /* Firefox */ -webkit-transform: rotate(-45deg); /* Safari 和 Chrome */ -o-transform: rotate(-45deg); }
+
+.l-article-list > dd#end { border-bottom: none; background: white url(../images/border-bg.png) repeat-x left bottom; }
+
+/* 订单加减 */
+.numbox { height: 47px; /*width: 184px;*/ border: solid 1px #b0b0b0; line-height: 45px; text-align: center; text-indent: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.numbox .less, .numbox .plus { width: 45px; height: 45px;padding: 0; display: inline-block; float: left; cursor: pointer; border: none; background: none; outline: none; box-sizing: border-box; }
+
+.numbox .numble { width: 92px; min-width: 92px; position: relative; padding: 0; height: 45px; float: left; background-color: #f60; color: #fff; text-align: center; border: none; border-radius: 0; font-size: 24px; }
+
+.margin-t20-l20 { margin-top: 20px; margin-left: 20px; }
+
+/* 分类项目底部 */
+.f-tool { height: 117px; border-top: 1px dashed #ccc; border-bottom: 1px dashed #ccc; }
+
+.f-tool > li { width: 33.33%; padding: 30px 0; float: left; text-align: center; }
+
+.f-tool > li img, .f-tool > li .text { display: inline-block; }
+
+.f-tool > li img { margin-right: 12px; vertical-align: top; }
+
+.f-tool > li .text { text-align: left; font-size: 0.8em; color: #b0b2b9; }
+
+.f-tool > li strong { font-size: 1.5em; color: #515567; line-height: 30px; }
+
+/* 文字 */
+.font30 { font-size: 30px; }
+
+.font36 { font-size: 36px; }
+
+.text-link { color: #333; display: block; }
+
+/* 邮轮 */
+.l-input-list dd label { width: 35%; display: inline-block; }
+
+.curise-detail-info { padding: 10px; margin: 20px 10px; border: 1px solid #ccc; color: #333; background-color: #fff; font-size: 1.5em; }
+
+.curise-detail-info dd { width: 50%; min-height: 48px; line-height: 48px; float: left; margin: 10px 0; }
+
+.curise-detail-info dd.full { width: 100%; }
+
+.curise-detail-info .text-input, .curise-detail-info select { height: 48px; width: 184px; border: solid 1px #b0b0b0; background-color: #fff; }
+
+.curise-detail-info .text-input { padding: 0 4px; }
+
+.btn-order.bg-yellow { background-color: #a3470a; border: none; }
+
+.curise-order-tips { margin: 30px 46px; line-height: 1.5; color: #999; text-align: center; font-size: 22px; }
+
+.curise-terms { margin: 20px 10px; padding: 20px 0; background: url(../images/ico_warning\.png) no-repeat 10px center; border-top: dashed 1px #ccc; text-indent: 56px; font-size: 1.5em; }
+
+.l-icon-list dd.arrowup::after { background: url(../images/ico_arrow_up\.png) no-repeat center; right: 25px; }
+
+.l-icon-list dd.arrowdown::after { background: url(../images/ico_arrow_up\.png) no-repeat center; right: 25px; }
+
+.curise-points { margin: -20px 10px 20px; padding: 10px; border: 1px solid #cccccc; background: url(../images/bg-points\.png); font-size: 1.5em; }
+
+.curise-points dl { margin: 0; }
+
+.curise-points dl.mt20 { margin-top: 20px; }
+
+.curise-points dd { float: left; width: 70%; height: 56px; margin: 0; border: solid 1px #ccc; }
+
+.curise-points dd.first { border-bottom: 0; }
+
+.curise-points dt { float: left; width: 30%; text-align: center; line-height: 56px; color: #666; }
+
+.curise-points dt select { border: none; background: none; }
+
+.curise-points dt button { line-height: 50px; border-radius: 4px; background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#cccccc)); background: -moz-linear-gradient(top, #eeeeee, #cccccc); border: solid 1px #bbb; }
+
+.curise-points dd input { width: 100%; height: 100%; border: none; padding: 0 5px; }
+
+.curise-room { background: rgba(0, 0, 0, 0.6); width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 999; }
+
+.curise-room .pop-box { width: 100%; background-color: #fff; margin: 0; text-align: center; position: fixed; bottom: 0; }
+
+.curise-room .title { line-height: 68px; border-bottom: solid 1px #ccc; font-size: 2em; position: relative; }
+
+.curise-room .title .tl { font-size: 0.7em; position: absolute; left: 20px; top: 0; color: #000; }
+
+.curise-room .title .tr { font-size: 0.7em; position: absolute; right: 20px; top: 0; color: #000; }
+
+.curise-room dl { overflow-y: scroll; max-height: 276px; margin: 0; -webkit-overflow-scrolling: touch; }
+
+.curise-room dd, .curise-room .city-list > li > ul > li { line-height: 68px; border-bottom: solid 1px #ccc; margin: 0 10px; font-size: 1.7em; color: #333; cursor: pointer; }
+
+.curise-room .city-list > li { width: 33.333%; height: 100%; float: left; }
+
+.curise-room .city-list > li > ul { width: 100%; overflow-y: scroll; max-height: 276px; }
+
+.curise-room .city-list > li > div { background-color: #f4f4f4; line-height: 32px; }
+
+.curise-room .city-list > li > ul > li.active { background-color: #f60; color: #fff; }
+
+/* 门票 */
+.like-list, .btn-full { background-color: #fff; padding: 15px 10px; overflow: hidden; box-shadow: 0 -3px 3px #dcdcdc; }
+
+.like-list-title { width: 154px; height: 28px; line-height: 28px; text-align: center; color: #fff; background: url(../images/bg_title1.png) no-repeat; margin-left: 20px; }
+
+.like-list li { width: 33.33%; float: left; padding: 10px; }
+
+.like-list li .title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.like-list li img { width: 100%; }
+
+.ui-icon-member { background: white url(../images/ico_member\.png) no-repeat center; width: 96px; height: 176px; position: absolute; right: 0; top: 0; z-index: 100; }
+
+.pr { position: relative; }
+
+.ticket-tips { margin: 20px 10px; line-height: 1.5em; font-size: .8em; }
+
+.l-list > dd.ticket-auto { height: auto; }
+
+.l-list > dd.ticket-info { height: auto; line-height: 1; padding-left: 80px; }
+
+.l-list > dd.ticket-address { height: auto; line-height: 1.5; padding: 20px 20px 20px 60px; text-indent: 0; }
+
+.ticket-option-list li { padding: 20px; border-bottom: solid 1px #ccc; font-size: 1.5em; line-height: 1.7; color: #333; position: relative; }
+
+.ticket-option-list li del, .ticket-option del { margin: 0 30px; }
+
+.ticket-option-list li input[type="checkbox"] { width: 36px; height: 29px; background: url(../images/ico_checkbox\.png) no-repeat; vertical-align: middle; }
+
+.ticket-option-list li input[type="checkbox"]:checked { background-position: 0 -31px; }
+
+.ticket-option { padding: 20px; border-bottom: solid 1px #ccc; font-size: 24px; line-height: 1.7; color: #333; position: relative; text-indent: 0; }
+
+.ticket-option .text { padding-right: 40px; }
+
+.ticket-option .ui-icon-close { width: 30px; height: 30px; background: url(../images/icon_li\.png) no-repeat -9px -2757px; position: absolute; right: 10px; top: 15px; }
+
+.tic-address dd { height: auto; text-indent: 0; padding-left: 20px; }
+
+.tic-addr-detail { text-align: right; }
+
+.tic-html .txtbuynotice { padding: 0; margin: 0; }
+
+/* 我的订单 */
+.order-title { line-height: 1.2em; padding-right: 88px; }
+
+.order-info { padding-bottom: 20px; overflow: hidden; font-size: 0.7em; color: #999; }
+
+.order-state { position: absolute; right: 0px; top: 25px; text-align: right; font-size: 0.7em; }
+
+.order-price { position: absolute; right: 20px; bottom: 15px; text-align: right; font-size: 0.7em; }
+
+.order-pay { width: 87px; height: 23px; line-height: 23px; text-align: center; background: url(../images/bg_title2\.png) no-repeat; color: #fff; font-size: 13px; display: inline-block; }
+
+.order-uinfo { width: 65%; display: inline-block; }
+
+.order-pay-tips { line-height: 58px; border-bottom: solid 1px #ccc; background-color: #fff; text-align: center; font-size: 1.5em; }
+
+.order-link { margin: 20px 10px; border: solid 1px #ccc; line-height: 88px; display: block; font-size: 1.5em; text-align: center; color: #333; }
+
+.order-linkbtn { background-color: #f60; padding: 3px 10px; font-size: 0.7em; color: #fff; position: absolute; right: 20px; top: 20px; }
+
+.code2-box { height: 242px; background: url(../images/bg_1\.jpg) no-repeat; margin: 50px 0; padding: 30px 278px 10px 26px; position: relative; font-size: 1.5em; color: #333; }
+
+.code2-info { height: 112px; text-align: right; }
+
+.code2-img { position: absolute; right: 48px; top: 38px; width: 170px; height: 170px; }
+
+.code2-img img { max-width: 100%; }
+
+.search-result { margin: 30px 10px; padding-top: 184px; padding-left: 10px; padding-right: 10px; background: url(../images/icon_mango-logo\.png) no-repeat center top; text-align: center; font-size: 1.5em; color: #999; }
+
+/*查看更多样式*/
+.tic-more { height: 64px; background-color: white; margin: 0 10px 15px; border: 1px solid #cccccc; }
+
+.tic-more a { color: #999999; font-size: 22px; display: inline-block; height: 64px; line-height: 64px; text-align: center; height: 100%; width: 39%; }
+
+.tic-more a:first-of-type { width: 60%; border-right: 1px solid #cccccc; }
